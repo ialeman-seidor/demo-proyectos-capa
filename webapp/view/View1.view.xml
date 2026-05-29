@@ -4,7 +4,7 @@
     <Page id="page" title="{i18n>title}">
         <content> 
             <Text id="1" text="Hola Mundo"></Text>
-            <Button id="2" text="{i18n>buttonText}" press="onPress"/>
+            <Button id="button" text="{Aceptar}" press="onPress"></Button>
         </content>
     </Page>
 </mvc:View>
