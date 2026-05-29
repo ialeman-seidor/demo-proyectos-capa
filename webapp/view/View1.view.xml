@@ -1,0 +1,10 @@
+<mvc:View controllerName="seidor.apps.workzonedemo.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content> 
+            <Text id="1" text="Hola Mundo"></Text>
+            <Button id="2" text="{i18n>buttonText}" press="onPress"/>
+        </content>
+    </Page>
+</mvc:View>
